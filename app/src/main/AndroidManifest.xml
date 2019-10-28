@@ -9,25 +9,67 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".OfferOtherActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".OfferHotelActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".OfferElectronicsActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".OfferVehicleActivity"
-            android:screenOrientation="portrait"/>
+        <activity android:name=".ServiceBanksActivity"
+            android:exported="true"
+            android:label="Banks"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".ServiceHouseGuardActivity"
+            android:exported="true"
+            android:label="House Guard"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ServiceMedicalSectorActivity"
+            android:exported="true"
+            android:label="Medical Sector"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ServiceCorporateOrganizationActivity"
+            android:exported="true"
+            android:label="Corporate Org."
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ServiceFemaleGuardActivity"
+            android:exported="true"
+            android:label="Female Guard"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ServiceGovernmentOrgActivity"
+            android:exported="true"
+            android:label="Government Org."
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".OfferOtherActivity"
+            android:exported="true"
+            android:label="Offer others"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".OfferHotelActivity"
+            android:exported="true"
+            android:label="Offer hotel"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".OfferElectronicsActivity"
+            android:exported="true"
+            android:label="Offer electronics"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".OfferVehicleActivity"
+            android:exported="true"
+            android:label="Offer vehicle"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".OfferMedicalActivity"
-            android:screenOrientation="portrait" />
+            android:exported="true"
+            android:label="Offer medical"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".OfferDressActivity"
-            android:screenOrientation="portrait" />
-        <activity android:name=".ContactActivity"></activity>
+            android:exported="true"
+            android:label="Offer dress"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".ContactActivity"
+            android:exported="true"
+            android:label="Contact"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
