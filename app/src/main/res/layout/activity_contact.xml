@@ -96,7 +96,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:paddingLeft="10dp"
-                        android:text="support@smartdriverbd.com"
+                        android:text="support@smartsheba.com"
                         android:textColor="#21262C"
                         android:textStyle="bold" />
                 </LinearLayout>
