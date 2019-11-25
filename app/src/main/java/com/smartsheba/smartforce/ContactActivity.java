@@ -35,7 +35,7 @@ public class ContactActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent mapIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/smartdriverbd"));
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/Smart-Force-BD-1297812237035755/"));
                 startActivity(mapIntent);
             }
         });
